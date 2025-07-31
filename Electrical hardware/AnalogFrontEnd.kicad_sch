@@ -5,4 +5,37 @@
 	(uuid "17501585-53b9-47b2-beb7-0fa23bd1d6b3")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "V-"
+		(shape output)
+		(at 186.69 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86d89aef-b9b2-4d6f-9500-010d87664307")
+	)
+	(hierarchical_label "Vmeas"
+		(shape input)
+		(at 57.15 77.47 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left)
+		)
+		(uuid "cbcad485-150a-4d2f-96ee-82910da1ca8a")
+	)
+	(hierarchical_label "V+"
+		(shape output)
+		(at 186.69 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6984296-2830-446f-95cd-84ff3f20a6fc")
+	)
 )
