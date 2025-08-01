@@ -19,7 +19,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 /build
-/Electrical hardware/LCMscope-backups
+/Electrical hardware/KiCAD Files/CMscope-backups
 
 # Netlist files (exported from Eeschema)
 *.net
