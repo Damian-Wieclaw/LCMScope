@@ -447,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "LCMScopeLib"
+    ]
   },
   "meta": {
     "filename": "LCMscope.kicad_pro",
