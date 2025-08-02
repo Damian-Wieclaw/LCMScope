@@ -1,1 +1,1 @@
-<img width="1667" height="705" alt="obraz" src="https://github.com/user-attachments/assets/9745f30c-94c7-408a-816a-ed906c3101dd" />
+<img width="1628" height="467" alt="obraz" src="https://github.com/user-attachments/assets/4125aa31-5d57-452b-89ea-4844e4e12970" />
