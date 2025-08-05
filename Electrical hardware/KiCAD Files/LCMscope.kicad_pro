@@ -630,6 +630,10 @@
     [
       "ec80e5d1-e850-4436-a5fa-61773c455223",
       "FPGA"
+    ],
+    [
+      "22f085db-1726-4a3c-a761-8020c41d768d",
+      "RCVoltageDivider"
     ]
   ],
   "text_variables": {}

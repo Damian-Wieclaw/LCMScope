@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 102.87 68.58)
+			(xy 92.71 68.58) (xy 102.87 68.58)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 102.87 71.12)
+			(xy 92.71 71.12) (xy 102.87 71.12)
 		)
 		(stroke
 			(width 0)
@@ -26,7 +26,7 @@
 		(uuid "621460ae-f922-4c28-8084-3deb9d973682")
 	)
 	(sheet
-		(at 57.15 59.69)
+		(at 68.58 59.69)
 		(size 24.13 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42,7 +42,7 @@
 		)
 		(uuid "102ffefb-dd8a-4b1c-b70a-c5fd3e906d6f")
 		(property "Sheetname" "AnalogFrontEnd"
-			(at 57.15 58.9784 0)
+			(at 68.58 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "AnalogFrontEnd.kicad_sch"
-			(at 57.15 94.5646 0)
+			(at 68.58 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			)
 		)
 		(pin "V+" output
-			(at 81.28 68.58 0)
+			(at 92.71 68.58 0)
 			(uuid "0be353c9-862f-4551-979d-6451ffc51cdb")
 			(effects
 				(font
@@ -70,7 +70,7 @@
 			)
 		)
 		(pin "V-" output
-			(at 81.28 71.12 0)
+			(at 92.71 71.12 0)
 			(uuid "828bda1c-590c-4ab9-819f-3204a348a548")
 			(effects
 				(font
@@ -79,12 +79,12 @@
 				(justify right)
 			)
 		)
-		(pin "Vmeas" input
-			(at 57.15 74.93 180)
+		(pin "Vin" input
+			(at 68.58 68.58 180)
 			(uuid "22572480-7445-4526-86ea-bb7c9a96f1c1")
 			(effects
 				(font
-					(size 2 2)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -207,6 +207,68 @@
 			(project "LCMscope"
 				(path "/6a8b9a9c-88ba-48a5-8033-e5e1453b50bb"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 59.69)
+		(size 24.13 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 194 1 1.0000)
+		)
+		(uuid "22f085db-1726-4a3c-a761-8020c41d768d")
+		(property "Sheetname" "RCVoltageDivider"
+			(at 29.21 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AnalogFrontEnd.kicad_sch"
+			(at 29.21 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" output
+			(at 53.34 68.58 0)
+			(uuid "539d43f9-68e1-43f8-973f-4ab224eb5a16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vmeas" input
+			(at 29.21 68.58 180)
+			(uuid "436779f4-5151-413f-92b9-23bc2c23ef41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LCMscope"
+				(path "/6a8b9a9c-88ba-48a5-8033-e5e1453b50bb"
+					(page "6")
 				)
 			)
 		)
